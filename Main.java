@@ -23,8 +23,10 @@ class Main {
         String imie = scanner.nextLine();
         System.out.println("Podaj wiek: ");
         int wiek = scanner.nextInt();
-        System.out.println("\n" + imie + " " + wiek);
-        s.addStudent(new Student(imie, wiek));
+        System.out.println("Podaj nazwisko: ");
+        String nazwisko = scanner.nextLine();
+        System.out.println("\n" + imie + " " + nazwisko + " " + wiek);
+        s.addStudent(new Student(imie, nazwisko, wiek));
       break;
 
       case 2:
@@ -32,8 +34,6 @@ class Main {
       for(Student current : students) {
       System.out.println(current.ToString());  }
       break;
-
-      case 3:
       }
       }  catch (IOException e) {
       
