@@ -16,7 +16,7 @@ class Main {
       while (true){
       Scanner scanner = new Scanner(System.in);
       Service s = new Service();
-      System.out.println("Podaj numer: ");
+      System.out.println("\nPodaj numer: ");
       int liczba = scanner.nextInt(); scanner.nextLine();
       switch (liczba) {
       case 1:  
@@ -41,8 +41,8 @@ class Main {
       case 0:
       return;
       }
+      }
       }  catch (IOException e) {
       }
-      }
-  }
+}
 }

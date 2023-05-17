@@ -5,3 +5,5 @@ michal  4
 michal sliz 24
 michal sliz 22 
 michal sliz 22 04.07.2001
+michal sliz 24 04
+michal sliz 22 04 007
