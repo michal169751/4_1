@@ -23,10 +23,12 @@ class Main {
         String imie = scanner.nextLine();
         System.out.println("Podaj nazwisko: ");
         String nazwisko = scanner.nextLine();
+        System.out.println("Podaj date urodzenia: ");
+        String urodziny = scanner.nextLine();
         System.out.println("Podaj wiek: ");
         int wiek = scanner.nextInt();
-        System.out.println("\n" + imie + " " + nazwisko + " " + wiek);
-        s.addStudent(new Student(imie, nazwisko, wiek));
+        System.out.println("\n" + imie + " " + nazwisko + " " + wiek + " " + urodziny);
+        s.addStudent(new Student(imie, nazwisko, wiek, urodziny));
       break;
 
       case 2:
