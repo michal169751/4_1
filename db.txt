@@ -1,3 +1,5 @@
 Krzysztof 20
 Janusz 40
 michal 4
+michal  4
+michal sliz 24
