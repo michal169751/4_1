@@ -13,6 +13,7 @@ import java.util.Scanner;
 class Main {
   public static void main(String[] args) {
     try {
+      while (true){
       Scanner scanner = new Scanner(System.in);
       Service s = new Service();
       System.out.println("Podaj numer: ");
@@ -36,9 +37,12 @@ class Main {
       for(Student current : students) {
       System.out.println(current.ToString());  }
       break;
+
+      case 0:
+      return;
       }
       }  catch (IOException e) {
-      
+      }
       }
   }
 }
