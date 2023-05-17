@@ -28,7 +28,6 @@ class Main {
         String urodziny = scanner.nextLine();
         System.out.println("Podaj wiek: ");
         int wiek = scanner.nextInt();
-        System.out.println("\n" + imie + " " + nazwisko + " " + wiek + " " + urodziny);
         s.addStudent(new Student(imie, nazwisko, wiek, urodziny));
       break;
 
